@@ -19,7 +19,7 @@ require_once 'controller.php';
     <div class="container">
         <form action="" method="POST" enctype="multipart/form-data">
 
-            <input type="file" name="userFile" oninput="pic.src=window.URL.createObjectURL(this.files[0])" /><img id="plus"src="assets/img/button.png" alt=""><span><?= $messages['userFile'] ?? '' ?></span> <br>
+            <input type="file" name="userFile" oninput="pic.src=window.URL.createObjectURL(this.files[0])" /><img id="plus"src="assets/img/plus.png" alt=""><span><?= $messages['userFile'] ?? '' ?></span> <br>
             <img id =pic src="" height="200" alt="Image preview" /> <br>
   
             
